@@ -3,10 +3,19 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<style>
+			.bg-image {
+				background-image:url('1.jpg');
+				background-repeat:no--repeat;
+				background-size:cover;
+			}
+		</style>
 	</head>
-	<body>
-		<h1>原神官网首页</h1>
-		<p>请输入账号密码</p>
+	<body class="bg-image"> <!-- style="background-image:url('test/yuanshen.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;" -->
+		<h1 style="text-align:center;">原神官网首页</h1>
+		<p style="text-align:center;">请输入账号密码</p>
 		<!-- <a
 		href="http:id5.163.com">入口</a>
 		<a
@@ -14,13 +23,13 @@
 		<br>
 <!-- 		<label for="ad"></label>
 		<input type="cb"> -->
-		<p>账号</p>
-		<form>
+		<p style="text-align:center;">账号</p>
+		<form style="text-align:center;">
 			<input type="text" name="un">
 			<input type="reset" value="重置"/>
 		</form>
-		<p>密码</p>
-		<form>
+		<p style="text-align:center;">密码</p>
+		<form style="text-align:center;">
 			<input type="password" name="psw"/
 			>
 <!-- 			<input type="button"/><br> -->
@@ -30,9 +39,41 @@
 <!-- 		<form action="target_page.html" method="post">
 			<input ytpe="submit" value="登录">
 		</form> -->
-		<a
+		<!-- <a
+		href="http://ys.mihoyo.com/cloud">登录游戏</a> -->
+		<!-- <a
+		href="target_page.html">登录官网</a> -->
+		
+		<!-- <style>
+			.center-links {
+				text-align:center;
+			}
+		</style>
+		<div class="center-links">
+			<a href="#"><a
 		href="http://ys.mihoyo.com/cloud">登录游戏</a>
-		<a
+		<a</a>
+		</div>
+		
+		<style>
+			.center-links {
+				text-align:center;
+			}
+		</style>
+		<div class="center-links">
+			<a href="#"><a
 		href="target_page.html">登录官网</a>
+		<a</a>
+		</div> -->
+		
+		<style>
+			.center-links {
+				text-align:center;
+			}
+		</style>
+		<div class="center-links">
+			<a href="#"><a
+		href="target_page.html">登录</a></a>
+		</div>
 	</body>
 </html>
